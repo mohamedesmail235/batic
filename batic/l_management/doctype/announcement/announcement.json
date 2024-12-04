@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-22 08:29:51.102317",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "message",
+  "starttime",
+  "stop",
+  "durations"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "message",
+   "fieldtype": "Text Editor",
+   "label": "Message"
+  },
+  {
+   "fieldname": "starttime",
+   "fieldtype": "Datetime",
+   "label": "StartTime"
+  },
+  {
+   "fieldname": "durations",
+   "fieldtype": "Int",
+   "label": "Durations(Minutes)"
+  },
+  {
+   "default": "0",
+   "fieldname": "stop",
+   "fieldtype": "Check",
+   "label": "Stop"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-10-22 08:37:28.895827",
+ "modified_by": "Administrator",
+ "module": "L-Management",
+ "name": "Announcement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
